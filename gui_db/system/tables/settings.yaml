@@ -1,0 +1,6 @@
+table: system.settings
+description: system.settings table description
+
+columns:
+  - key: text
+  - value: text

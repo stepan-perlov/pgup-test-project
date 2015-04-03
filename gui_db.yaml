@@ -1,0 +1,16 @@
+modules:
+  - sql: CREATE EXTENSION dblink
+
+  - schema: system
+  - table: gui_db/system/tables/settings.yaml
+  - index: gui_db/system/indexes/settings.sql
+  - function: gui_db/system/internal/_get_param.sql
+
+  - schema: admin
+  - table: gui_db/admin/tables/users.yaml
+  - function: gui_db/admin/api/get_users.sql
+
+  - schema: public
+  - table: gui_db/public/tables/articles.yaml
+  - data: gui_db/public/data/articles.sql
+  - procedure: gui_db/public/api/get_articles.sql

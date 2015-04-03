@@ -1,0 +1,9 @@
+table: data1.object1
+description: data1.object1 table description
+
+columns:
+  - fld1: int
+  - fld2: bigint
+  - fld3:
+        type: timestamptz
+        default: now()

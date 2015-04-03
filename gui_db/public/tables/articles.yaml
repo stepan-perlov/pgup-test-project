@@ -1,0 +1,7 @@
+table: public.articles
+description: public.articles table description
+
+columns:
+  - id: int
+  - title: text
+  - article: text

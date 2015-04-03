@@ -1,0 +1,8 @@
+modules:
+  - schema: data1
+  - table: cached_db/data1/tables/object1.yaml
+  - function: cached_db/data1/pu/pu_insert_object1.sql
+
+  - schema: data2
+  - table: cached_db/data2/tables/object2.yaml
+  - function: cached_db/data2/pu/pu_insert_object2.sql

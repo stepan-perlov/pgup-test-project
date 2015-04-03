@@ -1,0 +1,12 @@
+table: admin.users
+description: admin.users table description
+
+columns:
+  - id: serial
+  - name:
+        type: text
+        not_null: true
+        description: name column description
+  - group:
+        type: int
+        default: 0
